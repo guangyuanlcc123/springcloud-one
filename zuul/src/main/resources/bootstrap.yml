@@ -6,6 +6,6 @@ spring:
       retry:
         enabled: false
     config:
-      uri: http://localhost:9904
+      uri: http://config-service:9904
       fail-fast: true
 
