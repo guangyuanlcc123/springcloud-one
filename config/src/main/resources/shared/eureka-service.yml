@@ -17,16 +17,3 @@ spring:
     user:
       name: @eureka.user.name@
       password: @eureka.user.password@
-
-
-
-version: '2.1'
-  depends_on:
-    iccm-config:
-      condition: service_healthy
-    iccm-registry:
-      condition: service_started
-    iccm-redis:
-      condition: service_started
-    db-server:
-      condition: service_started
