@@ -112,7 +112,7 @@
                             <!--jar 包所在的路径  此处配置的 即对应 target 目录-->
                             <directory>${project.build.directory}</directory>
                             <!-- 需要包含的 jar包 ，这里对应的是 Dockerfile中添加的文件名　-->
-                            <include>${project.build.finalName}.jar</include>
+                            <include>${project.build.finalName}-execute.jar</include>
                         </resource>
                     </resources>
                 </configuration>
