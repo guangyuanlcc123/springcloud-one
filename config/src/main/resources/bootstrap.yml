@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: config-service
+  cloud:
+    loadbalancer:
+      retry:
+        enabled: false
+    config:
+      server:
+        native:
+          search-locations: classpath:/shared,file:config/dev
+  profiles:
+    active: native
+
+server:
+  port: 9904
+
+
+
