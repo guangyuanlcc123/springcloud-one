@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.xiaostudy</groupId>
     <artifactId>eureka</artifactId>
-    <version>${springCloudTest.version}</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>eureka</name>
     <description>Demo project for Spring Boot</description>
 
@@ -34,5 +34,4 @@
             <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
     </dependencies>
-
 </project>

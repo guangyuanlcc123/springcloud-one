@@ -8,7 +8,7 @@ spring:
     config:
       server:
         native:
-          search-locations: classpath:/shared,file:config/dev
+          search-locations: classpath:/shared,file:config
   profiles:
     active: native
 

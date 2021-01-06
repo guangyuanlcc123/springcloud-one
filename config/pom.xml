@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.xiaostudy</groupId>
     <artifactId>config</artifactId>
-    <version>${springCloudTest.version}</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>config</name>
     <description>Demo project for Spring Boot</description>
 
